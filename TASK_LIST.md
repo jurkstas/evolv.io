@@ -9,9 +9,10 @@ Low | Low | | Replace magic numbers with constants
 
 ### To add an item:
 
-Step 1. Choose what priority the task should be: High, Medium or Low
+Step 1. Choose what priority and difficulty the task should be: High, Medium or Low
 
-Step 2. Add the item below the list of items with the same priority that aren't yet done
+Step 2. Add the item below the list of items with the same priority and difficulty that aren't yet done
+
 
 
 
