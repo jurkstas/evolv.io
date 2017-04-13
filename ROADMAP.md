@@ -1,32 +1,49 @@
+## Purpose
+This is to keep track of the direction the project is going in and to make sure everyone knows what to expect and where to put their effort. It is of course open for discussion. Maybe we need a voting system?
+
+
+
 ### Brain
 In progress
 
 Move the brain implementation more towards an OOP style. Currently the brain is a raw 3d array of a fixed length, this needs to be more flexible so that it is possible for brains to evolve over time.
+
+
 
 ### Rendering
 Renderer interface done, still a lot remaining to do
 
 Separate the rendering out from the updating using the Renderer interface. Currently rendering and updating is all mixed together. It would be nice to keep them separate so that the performance and correctness of updating isn't affected by the rendering.
 
+
+
 ### Saving and Loading from file
 Pull request made, still to be tested and reviewed
 
 The file saving and loading needs to be separated out and made more self-contained.
+
+
 
 ### A more fluid, responsive and OOP UI
 TODO
 
 Currently user interaction is calculated by comparing mouse positions against hard-coded values. The values need to be more responsive to screen size. Also there may need to be a concept of a UI button that can register responses to clicks. These buttons could be held in a HUD graph which allows interrogating which button is underneath any (x, y) co-ordinate.
 
+
+
 ### A scene graph
 TODO
 
 It would be nice for tiles and creatures to be held in a scene graph which allows objects to be added and removed. This scene graph might be a quadtree which would allow interrogating what was underneath any (x, y) co-ordinate in the same way as the ui/hud graph.
 
+
+
 ### A Plant SoftBody
 TODO
 
 At the moment there is currently just "grass" and Creatures. It would be nice to have a plant softbody too with it's own evolutionary cycles. This could either be in addition to or replace the "grass".
+
+
 
 ### General cleanup, efficiency, performance and more OOP style
 A lot of clean up done, some efficiency work done, rendering performance needs to be looked at, OOP style is in progress.
