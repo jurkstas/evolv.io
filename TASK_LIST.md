@@ -1,6 +1,11 @@
 Priority | Difficulty | Assigned to | Description
 -------- | ---------- | ----------- | -----------
 Medium | Medium | | Add unit tests
+Medium | Low | | Create a Positionable interface with getCentreX/Y() and getRadius() methods that SoftBody can implement
+Medium | High | | Create a QuadTree class that can hold Positionable objects
+Medium | Low | | Add a UIElement interface with a getBounds() method that returns a Rectangle2D
+Medium | Medium | | Add a UI button class that implements UIElement
+Medium | Medium | | Add a UI tree class that holds a tree of UIElements
 Low | Low | | Replace magic numbers with constants
 
 
