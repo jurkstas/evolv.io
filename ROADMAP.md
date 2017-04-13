@@ -4,7 +4,7 @@ Move the brain implementation more towards an OOP style. Currently the brain is 
 ### Rendering
 Separate the rendering out from the updating using the Renderer interface. Currently rendering and updating is all mixed together. It would be nice to keep them separate so that the performance and correctness of updating isn't affected by the rendering.
 
-### A more fluid and OOP UI
+### A more fluid, responsive and OOP UI
 Currently user interaction is calculated by comparing mouse positions against hard-coded values. The values need to be more responsive to screen size. Also there may need to be a concept of a UI button that can register responses to clicks. These buttons could be held in a HUD graph which allows interrogating which button is underneath any (x, y) co-ordinate.
 
 ### A scene graph
@@ -13,5 +13,5 @@ It would be nice for tiles and creatures to be held in a scene graph which allow
 ### A Plant SoftBody
 At the moment there is currently just "grass" and Creatures. It would be nice to have a plant softbody too with it's own evolutionary cycles.
 
-### Cleanup, efficiency
-Some methods are still doing unusual things or could be improved, any improvements along these lines are helpful. The unusual methods may need some discussion about how to change them or whether to replace them.
+### Cleanup, efficiency and more OOP style
+Some methods are still doing unusual things or could be improved, any improvements along these lines are helpful. The unusual methods may need some discussion about how to change them or whether to replace them. Also code concepts need to be more fully separated out and in a more OOP style.
