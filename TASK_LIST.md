@@ -19,6 +19,8 @@ Step 2. Add the item below the list of items with the same priority and difficul
 
 Step 1. Add your name to the Assigned to column so that others know not to work on the same thing
 
-Step 2. Create pull request and merge
+Step 2. Complete the task on a new branch
 
-Step 3. Delete row for the task
+Step 3. Create a pull request
+
+Step 4. After it's been merged, delete the row for the task
