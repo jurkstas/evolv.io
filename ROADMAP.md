@@ -10,5 +10,8 @@ Currently user interaction is calculated by mouse position. There may need to be
 ### A scene graph
 It would be nice for tiles and creatures to be held in a scene graph which allows objects to be added and removed. This scene graph might be a quadtree which would allow interrogating what was underneath any (x, y) co-ordinate in the same way as the ui/hud graph.
 
+### A Plant SoftBody
+At the moment there is currently just "grass" and Creatures. It would be nice to have a plant softbody too with it's own evolutionary cycles.
+
 ### Cleanup, efficiency
 Some methods are still doing unusual things or could be improved, any improvements along these lines are helpful. The unusual methods may need some discussion about how to change them or whether to replace them.
