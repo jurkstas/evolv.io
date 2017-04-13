@@ -6,11 +6,15 @@ Low | Low | | Replace magic numbers with constants
 ~~Medium~~ | ~~Low~~ | ~~Nate~~ | ~~Create a ROADMAP_DISCUSSION.md~~
 
 
+
+
 ### To add an item:
 
 Step 1. Choose what priority the task should be: High, Medium or Low
 
 Step 2. Add the item below the list of items with the same priority that aren't yet done
+
+
 
 
 ### To do a task:
