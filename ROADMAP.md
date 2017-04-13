@@ -4,8 +4,8 @@ Move the brain implementation more towards an OOP style. Currently the brain is 
 ### Rendering
 Separate the rendering out from the updating using the Renderer interface. Currently rendering and updating is all mixed together. It would be nice to keep them separate so that the performance and correctness of updating isn't affected by the rendering.
 
-### A more OOP UI
-Currently user interaction is calculated by mouse position. There may need to be a concept of a UI button that can register responses to clicks. These buttons could be held in a HUD graph which allows interrogating which button is underneath any (x, y) co-ordinate.
+### A more fluid and OOP UI
+Currently user interaction is calculated by comparing mouse positions against hard-coded values. The values need to be more responsive to screen size. Also there may need to be a concept of a UI button that can register responses to clicks. These buttons could be held in a HUD graph which allows interrogating which button is underneath any (x, y) co-ordinate.
 
 ### A scene graph
 It would be nice for tiles and creatures to be held in a scene graph which allows objects to be added and removed. This scene graph might be a quadtree which would allow interrogating what was underneath any (x, y) co-ordinate in the same way as the ui/hud graph.
