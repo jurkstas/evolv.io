@@ -17,7 +17,6 @@ Low | Low | | Replace magic numbers with constants
 ~~Unknown~~ | ~~Unknown~~ | ~~Yoyoyonny~~ | ~~Add .gitattributes~~
 ~~Unknown~~ | ~~Unknown~~ | ~~Yoyoyonny~~ | ~~Update README~~
 ~~Unknown~~ | ~~Unknown~~ | ~~Yoyoyonny~~ | ~~Merge SerayaEryn's branch~~
-
 ~~Medium~~ | ~~Low~~ | ~~Nate~~ | ~~Create a TASK_LIST~~
 ~~Medium~~ | ~~Low~~ | ~~Nate~~ | ~~Create a ROADMAP~~
 ~~Medium~~ | ~~Low~~ | ~~Nate~~ | ~~Create a ROADMAP_DISCUSSION~~
