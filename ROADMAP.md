@@ -24,6 +24,9 @@ TODO
 At the moment there is currently just "grass" and Creatures. It would be nice to have a plant softbody too with it's own evolutionary cycles.
 
 ### Cleanup, efficiency, performance and more OOP style
-A lot of clean up done, some efficiency work done, rendering performance needs to be looked at, OOP style is in progress
+A lot of clean up done, some efficiency work done, rendering performance needs to be looked at, OOP style is in progress.
 
-Some methods are still doing unusual things or could be improved, any improvements along these lines are helpful. The unusual methods may need some discussion about how to change them or whether to replace them. Also code concepts need to be more fully separated out and in a more OOP style.
+Some methods are still doing unusual things or could be improved, any improvements along these lines are helpful. The unusual methods may need some discussion about how to change them or whether to replace them.
+Efficiency still needs some work, eg. using squared distances instead of radius.
+Performance needs looking at, especially what is being rendered.
+Code concepts still need to be fully separated out and moved more towards an OOP style.
