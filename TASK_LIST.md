@@ -1,5 +1,6 @@
 Priority | Difficulty | Assigned to | Description
 -------- | ---------- | ----------- | -----------
+Medium | Medium | | Add unit tests
 Low | Low | | Replace magic numbers with constants
 
 
