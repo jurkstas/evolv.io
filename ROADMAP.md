@@ -26,7 +26,7 @@ It would be nice for tiles and creatures to be held in a scene graph which allow
 ### A Plant SoftBody
 TODO
 
-At the moment there is currently just "grass" and Creatures. It would be nice to have a plant softbody too with it's own evolutionary cycles.
+At the moment there is currently just "grass" and Creatures. It would be nice to have a plant softbody too with it's own evolutionary cycles. This could either be in addition to or replace the "grass".
 
 ### General cleanup, efficiency, performance and more OOP style
 A lot of clean up done, some efficiency work done, rendering performance needs to be looked at, OOP style is in progress.
