@@ -26,4 +26,4 @@ evolv\.io uses a neural net and evolution in order to simulate creatures evolvin
 
 # Contributing
 
-Feel free to contribute pull requests. Anything from the task list will be gratefully received. Otherwise [check the roadmap](ROADMAP.md) for the rough direction of where the project is going. Small contributions that gradually move the project along the roadmap will have much better chance of being accepted than large breaking changes.
+Feel free to contribute pull requests. Anything [from the task list](TASK_LIST.md) will be gratefully received. Otherwise [check the roadmap](ROADMAP.md) for the rough direction of where the project is going. Small contributions that gradually move the project along the roadmap will have much better chance of being accepted than large breaking changes.
