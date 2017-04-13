@@ -8,6 +8,11 @@ Renderer interface done, still a lot remaining to do
 
 Separate the rendering out from the updating using the Renderer interface. Currently rendering and updating is all mixed together. It would be nice to keep them separate so that the performance and correctness of updating isn't affected by the rendering.
 
+### Saving and Loading from file
+Pull request made, still to be tested and reviewed
+
+The file saving and loading needs to be separated out and made more self-contained.
+
 ### A more fluid, responsive and OOP UI
 TODO
 
