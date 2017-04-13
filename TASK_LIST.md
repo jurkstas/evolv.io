@@ -7,7 +7,6 @@ Low | Low | | Replace magic numbers with constants
 
 
 
-
 ### To add an item:
 
 Step 1. Choose what priority the task should be: High, Medium or Low
