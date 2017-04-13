@@ -1,5 +1,5 @@
-Priority | Status | Description
+Priority | Status | Difficulty | Description
 -------- | ------ | -----------
-Medium | TODO | Create a ROADMAP.md
-Medium | TODO | Create a ROADMAP_DISCUSSION.md
-Low | TODO | Replace magic numbers with constants
+Medium | TODO | Low | Create a ROADMAP.md
+Medium | TODO | Low | Create a ROADMAP_DISCUSSION.md
+Low | TODO | Low | Replace magic numbers with constants
