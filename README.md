@@ -23,7 +23,3 @@ evolv\.io uses a neural net and evolution in order to simulate creatures evolvin
 8. Click `File > New > Project > Maven > Check out Maven Projects from SCM > Next`.
 9. Put `https://github.com/evolvio/evolv.io.git` in for the SCM URL and click `Finish`.
 10. Click `Run > Run`
-
-# Contributing
-
-Feel free to contribute pull requests. Anything [from the task list](TASK_LIST.md) will be gratefully received. Otherwise [check the roadmap](ROADMAP.md) for the rough direction of where the project is going. Small contributions that gradually move the project along the roadmap will have much better chance of being accepted than large breaking changes.
