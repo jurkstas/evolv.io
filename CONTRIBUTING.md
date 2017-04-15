@@ -1,6 +1,6 @@
 # Contributing to evolv.io
 
-The evolv.io project welcomes new contributors. Individuals making significant and valuable contributions are made _Collaborators_ and given commit-access to the project. Until then feel free to contribute pull requests. Anything [from the task list](TASK_LIST.md) will be gratefully received. Otherwise [check the roadmap](ROADMAP.md) for the rough direction of where the project is going. Small contributions that gradually move the project along the roadmap will have much better chance of being accepted than large breaking changes. To contribute to evolv.io please follow these steps:
+The evolv.io project welcomes new contributors. Individuals making significant and valuable contributions are made _Collaborators_ and given commit-access to the project. To contribute to evolv.io please follow these steps:
 
 Step 1: Create a fork
 
