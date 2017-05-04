@@ -226,7 +226,13 @@ public class Board {
 				}
 				
 				this.evolvioColor.fill(0, 0, 1, 1);
-				this.evolvioColor.text(buttonTexts[i], x + 110, y + 17);
+				if (i < 2 || i >= 6) {
+					this.evolvioColor.text(buttonTexts[i], x + 110, y + 25);
+				}
+				
+				if (i >= 2 && i < 6) {
+					this.evolvioColor.text(buttonTexts[i], x + 110, y + 15);
+				}
 			}
 		} else {
 			float energyUsage = (float) selectedCreature.getEnergyUsage(timeStep);
