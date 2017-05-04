@@ -200,7 +200,7 @@ public class Board {
 			 * actions
 			 */
 			String[] buttonTexts = { "Brain Control",
-					"Spawn Chance " + EvolvioColor.nf(spawnChance, 0, 2) + "%", "Screenshot now",
+					"Spawn Chance " + EvolvioColor.nf(spawnChance * 100, 0, 0) + "%", "Screenshot now",
 					"-   Image every " + EvolvioColor.nf((float) imageSaveInterval, 0, 2) + " years   +",
 					"Text file now",
 					"-    Text every " + EvolvioColor.nf((float) textSaveInterval, 0, 2) + " years    +",
@@ -225,8 +225,8 @@ public class Board {
 				this.evolvioColor.text(buttonTexts[i], x + 110, y + 17);
 				if (i == 0) {
 				} else if (i == 1) {
-					this.evolvioColor.text("-" + EvolvioColor.nf(Configuration.SPAWN_CHANCE_INCREMENT, 0, 2)
-							+ "                    +" + EvolvioColor.nf(Configuration.SPAWN_CHANCE_INCREMENT, 0, 2),
+					this.evolvioColor.text("-" + EvolvioColor.nf(Configuration.SPAWN_CHANCE_INCREMENT * 100, 0, 0) + "%"
+							+ "                    +" + EvolvioColor.nf(Configuration.SPAWN_CHANCE_INCREMENT * 100, 0, 0) + "%",
 							x + 110, y + 37);
 				} else if (i <= 5) {
 					this.evolvioColor.text(getNextFileName(i - 2), x + 110, y + 37);
