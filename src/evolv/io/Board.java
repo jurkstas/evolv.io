@@ -200,7 +200,7 @@ public class Board {
 			 * actions
 			 */
 			String[] buttonTexts = { "Brain Control",
-					"Spawn Chance " + EvolvioColor.nf(spawnChance * 100, 0, 0) + "%", "Screenshot now",
+					"-   Spawn Chance " + EvolvioColor.nf(spawnChance * 100, 0, 0) + "%   +", "Screenshot now",
 					"-   Image every " + EvolvioColor.nf((float) imageSaveInterval, 0, 2) + " years   +",
 					"Text file now",
 					"-    Text every " + EvolvioColor.nf((float) textSaveInterval, 0, 2) + " years    +",
@@ -214,23 +214,19 @@ public class Board {
 				float y = EvolvioColor.floor(i / 2) * 50 + 570;
 				this.evolvioColor.fill(buttonColor);
 				this.evolvioColor.rect(x, y, 220, 40);
-				if (i >= 2 && i < 6) {
+				if (i <= 5 && i >= 2) {
 					// TODO can pow be replaced with something faster?
 					double flashAlpha = 1.0f
 							* Math.pow(0.5f, (year - fileSaveTimes[i - 2]) * Configuration.FLASH_SPEED);
 					this.evolvioColor.fill(0, 0, 1, (float) flashAlpha);
 					this.evolvioColor.rect(x, y, 220, 40);
-				}
-				this.evolvioColor.fill(0, 0, 1, 1);
-				this.evolvioColor.text(buttonTexts[i], x + 110, y + 17);
-				if (i == 0) {
-				} else if (i == 1) {
-					this.evolvioColor.text("-" + EvolvioColor.nf(Configuration.SPAWN_CHANCE_INCREMENT * 100, 0, 0) + "%"
-							+ "                    +" + EvolvioColor.nf(Configuration.SPAWN_CHANCE_INCREMENT * 100, 0, 0) + "%",
-							x + 110, y + 37);
-				} else if (i <= 5) {
+					
+					this.evolvioColor.fill(0, 0, 1, 1);
 					this.evolvioColor.text(getNextFileName(i - 2), x + 110, y + 37);
 				}
+				
+				this.evolvioColor.fill(0, 0, 1, 1);
+				this.evolvioColor.text(buttonTexts[i], x + 110, y + 17);
 			}
 		} else {
 			float energyUsage = (float) selectedCreature.getEnergyUsage(timeStep);
