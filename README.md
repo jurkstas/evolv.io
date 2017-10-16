@@ -8,8 +8,14 @@ This is the source code to [the evolv.io evolution simulator](https://www.youtub
 
 # Summary
 
-evolv\.io is an evolution similator that runs on the application [Processing](https://www.processing.org).
+evolv\.io is an evolution simulator that runs on the application [Processing](https://www.processing.org).
 evolv\.io uses a neural net and evolution in order to simulate creatures evolving over time.
+
+
+# New Projects
+
+This project has been a great start, however a single repo has proven to be a constraining factor. Therefore [a new account has been opened](https://github.com/evolvio4all) to contain many repos to experiment with new variants, ideas and technologies. Join us there and ask for a repo!
+
 
 # Executing
 
