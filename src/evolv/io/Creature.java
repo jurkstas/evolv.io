@@ -226,7 +226,7 @@ public class Creature extends SoftBody {
 	public void fight(double amount, double timeStep) {
 		if (amount > 0 && getAge() >= Configuration.MATURE_AGE) {
 			setFightLevel(amount);
-			loseEnergy(getFightLevel() * Configuration.FIGHT_ENERGY * getEnergy() * timeStep);
+			loseEnergy(getFightLevel() * Configuration.FIGHT_ENERGY /* * getEnergy() */ * timeStep);
 			for (int i = 0; i < getColliders().size(); i++) {
 				SoftBody collider = getColliders().get(i);
 				if (collider instanceof Creature) {
@@ -234,7 +234,10 @@ public class Creature extends SoftBody {
 							(float) collider.getPy());
 					double combinedRadius = getRadius() * Configuration.FIGHT_RANGE + collider.getRadius();
 					if (distance < combinedRadius) {
-						((Creature) collider).dropEnergy(getFightLevel() * Configuration.INJURED_ENERGY * timeStep);
+						//((Creature) collider).dropEnergy(getFightLevel() * Configuration.INJURED_ENERGY * timeStep);
+						double injuredEnergy = getFightLevel() * Configuration.INJURED_ENERGY * timeStep;
+						((Creature)collider).loseEnergy(injuredEnergy);
+						addEnergy(injuredEnergy);
 					}
 				}
 			}

@@ -33,8 +33,8 @@ public class Configuration {
 	public static final double FLASH_SPEED = 80;
 
 	// Brain
-	public static final int MEMORY_COUNT = 1;
-	public static final int BRAIN_WIDTH = 3;
+	public static final int MEMORY_COUNT = 3;
+	public static final int BRAIN_WIDTH = 5;
 	/*
 	 * Would like to add Brain Height. Will need to rework Brain to allow for
 	 * configuration
@@ -49,17 +49,19 @@ public class Configuration {
 	// Creature
 	public static final double ACCELERATION_ENERGY = 0.18;
 	public static final double ACCELERATION_BACKWARDS_ENERGY = 0.24;
-	public static final double SWIM_ENERGY = 0.008;
+	public static final double SWIM_ENERGY = -0.0008;
 	public static final double TURN_ENERGY = 0.06;
 	public static final double EAT_ENERGY = 0.05;
 	public static final double EAT_SPEED = 0.5;
 	public static final double EAT_WHILE_MOVING_INEFFICIENCY_MULTIPLIER = 2.0;
 	public static final int ENERGY_HISTORY_LENGTH = 6;
-	public static final double FIGHT_ENERGY = 0.06;
-	public static final double INJURED_ENERGY = 0.25;
+	public static final double FIGHT_ENERGY = EAT_ENERGY * 5;
+	//public static final double FIGHT_ENERGY = 0.06;
+	//public static final double INJURED_ENERGY = 0.25;
+	public static final double INJURED_ENERGY = FIGHT_ENERGY * 3;
 	public static final double METABOLISM_ENERGY = 0.004;
-	public final static int NUM_EYES = 3;
-	public static final double MAX_VISION_DISTANCE = 10;
+	public final static int NUM_EYES = 8;
+	public static final double MAX_VISION_DISTANCE = 20;
 	public static final double FOOD_SENSITIVITY = 0.3;
 	public static final float BRIGHTNESS_THRESHOLD = 0.7f;
 	public static final double SAFE_SIZE = 1.25;
